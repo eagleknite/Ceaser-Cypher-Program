@@ -1,8 +1,6 @@
 // Task: Ceasar Cypher Project
 // Author: Arnold Twala 
 
-
-
 // function for user input message
 function userMessage() {
     let message = prompt("Enter the message you want to change into a cypher:");
@@ -68,9 +66,3 @@ let encryptedMessage = encrypt(userMessage());
 console.log(encryptedMessage);
 alert(encryptedMessage);
 
-
-
-// References:
-// https://www.ascii-code.com/
-// https://en.wikipedia.org/wiki/Cipher
-// https://en.wikipedia.org/wiki/Caesar_cipher
